@@ -1,4 +1,4 @@
-.body{
+*{
     margin: 0px;
     padding: 0px,
 }
@@ -72,12 +72,12 @@
 .Section3{
     display: flex;
     justify-content: space-between;
-    padding: 0px 400px;
+    padding: 0px 210px 100px 400px;
 }
 .titulo3{
     color:#fe8e49;
     font-size: 45px;
-    width: 80%;
+    width: 78%;
 }
 
 .tex3{
@@ -104,12 +104,15 @@
                          /*Section 4*/
 .Section4{
 background-image: url(/assets/bgDown.png);
-height: 68vh;
+background-size:cover;
+background-repeat: no-repeat;
+height: 85vh;
+
 
 }
 
 .contens4{
-    margin: 0px 160px;
+    margin: 0px 0px 0px 300px;
     padding: 105px 0px;
 
 }
@@ -117,12 +120,13 @@ height: 68vh;
 .titulo4{
     color:#fe8e49;
     font-size: 45px;
-    width: 60%;
+    width: 40%;
     font-weight: bold;
+    margin-top: 60px;
 }
 
 .text4{
-    width: 45%;
+    width: 40%;
     font-size: 20px;
     margin-top: 30px;
     line-height: 30px;
@@ -135,7 +139,7 @@ height: 68vh;
     padding: 15px 40px;
     border-radius: 50px;
     font-size: 16px;
-    margin: 0px 0px 110px 0px;
+    margin: 20px 0px 110px 0px;
 }
 
 
